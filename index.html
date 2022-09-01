@@ -8,12 +8,11 @@
 
     <!-- CSS only -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
@@ -27,50 +26,56 @@
     <link rel="stylesheet" href="/stylesheet/stylesheet.css.map" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
+    <!-- NAVIGATION BAR SECTION -->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
+        <div class="container">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home</a>
+              <a class="nav-item nav-link" href="#">Features</a>
+              <a class="nav-item nav-link" href="#">Pricing</a>
+              <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
+    <!--SECTION PART-->
 
-    <header class="page-header header container-fluid">
+    <section class="section container-fluid">
       <div class="overlay"></div>
-      <div class="description">
-        <h2>CHECK OUT THE TOP WEEKLY DESTINATION</h2>
 
-        <h1><b>TRAVEL WITH US</b></h1>
-
-        <button class="btn btn-outline-secondary btn-lg">BOOK NOW</button>
+      <div class="section-wrapper container-fluid">
+        <div class="text-container container">
+          <h1>Batangas City</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nemo
+            asperiores, magni eum deserunt exercitationem tempore itaque
+            mollitia debitis cumque nam qui, voluptatibus ipsam provident. Dicta
+            porro tenetur a reiciendis voluptatum enim qui odit nesciunt.
+        </p>
+        <button class="btn submit">View More</button>
+        </div>
+        
       </div>
-    </header>
-
+    </section>
 
     <!-- JavaScript Bundle with Popper -->
     <script
@@ -80,7 +85,7 @@
     ></script>
 
     <!--JQUERY IMPORT-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="/app.js"></script>
   </body>

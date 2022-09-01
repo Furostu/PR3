@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat:wght@200;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.601);
+  height: 10vh;
+}
+.navbar .nav-item {
+  margin-left: 15%;
+  padding-top: 8%;
+}
+.navbar .nav-link {
+  color: #fff9d7;
+  font-size: 1.4em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navbar .nav-link:hover {
+  color: rgb(237, 162, 22);
+}
+.navbar .active {
+  color: rgb(237, 162, 22);
+}
+.navbar .navbar-nav {
+  width: 50%;
+  height: 10vh;
+}
+
+.section {
+  background-image: url(/images/jonal-dela-cruz-aI50d0Y0lLA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  padding: 0;
+}
+.section .overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(46, 60, 69, 0.4);
+  z-index: -1;
+}
+.section .section-wrapper {
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+}
+.section .section-wrapper .text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 249, 215, 0.113);
+  -webkit-backdrop-filter: blur(0.2rem);
+          backdrop-filter: blur(0.2rem);
+  padding: 8%;
+  border-radius: 20px;
+}
+.section .section-wrapper .text-container h1 {
+  font-size: 8em;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  color: white;
+  letter-spacing: 1.7px;
+}
+.section .section-wrapper .text-container p {
+  font-size: 1.4em;
+  letter-spacing: 0.5px;
+  line-height: 1.8em;
+  color: white;
+  text-align: justify;
+}
+.section .section-wrapper .text-container .submit {
+  height: 45px;
+  width: 150px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 13px;
+  font-family: "Merriweather", serif;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+}/*# sourceMappingURL=stylesheet.css.map */
