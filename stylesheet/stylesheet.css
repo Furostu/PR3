@@ -91,4 +91,10 @@
   font-family: "Merriweather", serif;
   font-weight: 200;
   letter-spacing: 1.2px;
+}
+
+@media (min-width: 992px) {
+  .text-container {
+    padding: 3%;
+  }
 }/*# sourceMappingURL=stylesheet.css.map */
