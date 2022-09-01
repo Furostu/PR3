@@ -1,0 +1,120 @@
+/*# sourceMappingURL=stylesheet.css.map */
+.navbar navbar-expand-lg bg-light {
+    background-color: aqua;
+  }
+  
+  .nav-link,
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+  
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .header {
+    background-image: url(/images/2.jpg);
+  
+    background-size: cover;
+  
+    background-position: center;
+  
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+  
+    min-height: 100%;
+  
+    min-width: 100%;
+  
+    left: 0;
+  
+    top: 0;
+  
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .description {
+    left: 50%;
+  
+    position: absolute;
+  
+    top: 45%;
+  
+    transform: translate(-50%, -55%);
+  
+    text-align: center;
+  }
+  
+  .description h1 {
+    color: #ffffff;
+  
+    font-size: 60px;
+  }
+  
+  .description h2 {
+    color: #fff;
+  
+    font-size: 40px;
+  
+    line-height: 1.5;
+  }
+  .description button {
+    border: 1px solid #a721cf;
+  
+    background: #a721cf;
+  
+    border-radius: 20;
+  
+    color: #fff;
+  
+    font-size: 20px;
+  }
+  
+  .description button:hover {
+    border: 1px solid #fff;
+  
+    background: #fff;
+  
+    color: #000;
+  }
+  .text {
+    padding: 7%;
+  
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text h3 {
+    font-size: 50px;
+    color: #000;
+    
+  }
+  
+  .text p {
+    color: #000;
+  }
+  .col {
+    color: #000000;
+  }
+  
+  .circle {
+    width: 90px;
+    height: 90px;
+    background: rgb(195, 195, 221);
+    margin: 10%;
+    border-radius: 50%;
+    margin-left: 110px;
+  }
+  .circle img {
+    margin-top: 14px;
+    width: 60%;
+    margin-top: 17px;
+  }
+  
