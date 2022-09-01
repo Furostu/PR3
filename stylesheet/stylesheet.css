@@ -272,6 +272,7 @@
 .footer {
   background: #111;
   height: 40vh;
+  padding: 0%;
 }
 .main-content {
   display: flex;
@@ -305,8 +306,12 @@
   background: #f12020;
   top: -10px;
 }
+.left h2{
+  color: #949393;
+}
 .left .content p {
   text-align: justify;
+  color: #949393;
 }
 .left .content .social {
   margin: 20px 0 0 0;
@@ -325,7 +330,10 @@
   transition: 0.3s;
 }
 .left .content .social a span:hover {
-  background: #f12020;
+  background: #949393;
+}
+.center h2{
+  color: #949393;
 }
 .center .content .fas {
   font-size: 1.4375rem;
@@ -339,20 +347,28 @@
   cursor: pointer;
 }
 .center .content .fas:hover {
-  background: #f12020;
+  background: #949393;
 }
 .center .content .text {
   font-size: 1.0625rem;
   font-weight: 500;
   padding-left: 10px;
+  color: #949393;
 }
 .center .content .phone {
   margin: 15px 0;
 }
+.right h2{
+  color: #949393;
+}
+.email{
+  margin-top: 1px;
+}
 .right form .text {
   font-size: 1.0625rem;
-  margin-bottom: 2px;
-  color: #656565;
+  margin-bottom: 0px;
+  color: #949393;
+  padding: 20px;
 }
 .right form .msg {
   margin-top: 10px;
@@ -377,7 +393,7 @@
 }
 .right form .btn button {
   height: 40px;
-  width: 100%;
+  width: 1420%;
   border: none;
   outline: none;
   background: #f12020;
@@ -387,7 +403,7 @@
   transition: 0.3s;
 }
 .right form .btn button:hover {
-  background: #000;
+  background: #949393;
 }
 .bottom{
   padding-top: 12%;
