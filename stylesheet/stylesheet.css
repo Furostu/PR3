@@ -95,6 +95,11 @@
 
 @media (min-width: 992px) {
   .text-container {
+    padding: 5%;
+  }
+}
+@media (min-width: 1200px) {
+  .text-container {
     padding: 3%;
   }
 }/*# sourceMappingURL=stylesheet.css.map */
